@@ -34,18 +34,18 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:9.2.710"
-	modLocalRuntime("me.shedaniel:RoughlyEnoughItems-fabric:9.2.710") { transitive = false }
+	modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:${project.rei}"
+	modLocalRuntime("me.shedaniel:RoughlyEnoughItems-fabric:${project.rei}") { transitive = false }
 
-	modApi("me.shedaniel.cloth:cloth-config-fabric:8.3.115") {
+	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config}") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
 
-	modApi "dev.architectury:architectury-fabric:6.6.92"
+	modApi "dev.architectury:architectury-fabric:${project.architectury}"
 
-	modImplementation "software.bernie.geckolib:geckolib-fabric-1.19:3.1.40"
+	modImplementation "software.bernie.geckolib:geckolib-fabric-1.19:${project.geckolib}"
 
-	modImplementation("com.terraformersmc:modmenu:4.1.2") {
+	modImplementation("com.terraformersmc:modmenu:${project.modmenu}") {
 		transitive = false
 	}
 
