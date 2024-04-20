@@ -1,11 +1,11 @@
 package banduty.bsroleplay.item;
 
-import banduty.bsroleplay.BsRolePlay;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
@@ -44,6 +44,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     ;
 
+    private static final int[] BASE_DURABILITY;
     private final String name;
     private final int durabilityMultiplier;
     private final int[] protectionAmounts;
@@ -51,11 +52,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final SoundEvent equipSound;
     private final float toughness;
     private final float knockbackResistance;
-    private final Supplier<Ingredient> repairIngredient;
+    private final Lazy<Ingredient> repairIngredientSupplier;
 
-    private static final int[] BASE_DURABILITY = {11, 16, 15, 13 };
-
-    ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
+    private ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;
@@ -63,17 +62,17 @@ public enum ModArmorMaterials implements ArmorMaterial {
         this.equipSound = equipSound;
         this.toughness = toughness;
         this.knockbackResistance = knockbackResistance;
-        this.repairIngredient = repairIngredient;
+        this.repairIngredientSupplier = new Lazy<Ingredient>(repairIngredientSupplier);
     }
 
     @Override
-    public int getDurability(EquipmentSlot type) {
-        return BASE_DURABILITY[type.ordinal()] * this.durabilityMultiplier;
+    public int getDurability(EquipmentSlot slot) {
+        return BASE_DURABILITY[slot.getEntitySlotId()] * this.durabilityMultiplier;
     }
 
     @Override
     public int getProtectionAmount(EquipmentSlot slot) {
-        return protectionAmounts[slot.ordinal()];
+        return this.protectionAmounts[slot.getEntitySlotId()];
     }
 
     @Override
@@ -88,12 +87,12 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return this.repairIngredient.get();
+        return this.repairIngredientSupplier.get();
     }
 
     @Override
     public String getName() {
-        return BsRolePlay.MOD_ID + ":" + this.name;
+        return this.name;
     }
 
     @Override
@@ -104,5 +103,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     @Override
     public float getKnockbackResistance() {
         return this.knockbackResistance;
+    }
+
+    static {
+        BASE_DURABILITY = new int[]{11, 16, 15, 13};
     }
 }

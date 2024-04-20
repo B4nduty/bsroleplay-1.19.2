@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:blue_wool"
+    },
+    "R": {
+      "item": "bsroleplay:roleplay_core"
+    },
+    "W": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "pattern": [
+    "B B",
+    "BRB",
+    "WWW"
+  ],
+  "result": {
+    "item": "bsroleplay:police_chestplate"
+  }
+}

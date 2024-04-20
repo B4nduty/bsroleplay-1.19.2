@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "bsroleplay:roleplay_core"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "pattern": [
+    " TR",
+    " ST",
+    "S  "
+  ],
+  "result": {
+    "item": "bsroleplay:judge_hammer"
+  }
+}

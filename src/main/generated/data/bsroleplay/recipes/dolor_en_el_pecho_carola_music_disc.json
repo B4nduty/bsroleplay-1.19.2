@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "item": "bsroleplay:dolor_en_el_pecho_carola_music_disc"
+    },
+    "R": {
+      "item": "bsroleplay:roleplay_core"
+    }
+  },
+  "pattern": [
+    " D ",
+    " R "
+  ],
+  "result": {
+    "item": "bsroleplay:dolor_en_el_pecho_carola_music_disc"
+  }
+}

@@ -13,8 +13,8 @@ import org.slf4j.LoggerFactory;
 import software.bernie.geckolib3.GeckoLib;
 
 public class BsRolePlay implements ModInitializer {
-	public static final String MOD_ID = "assets/bsroleplay";
-	public static final Logger LOGGER = LoggerFactory.getLogger("assets/bsroleplay");
+	public static final String MOD_ID = "bsroleplay";
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	public static ModConfigs CONFIG;
 
 	@Override
