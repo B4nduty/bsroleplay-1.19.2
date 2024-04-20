@@ -141,7 +141,7 @@ public class ModItems {
             new LawyerPurpleAndRedItem(ModArmorMaterials.MASK, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroups.BSROLEPLAY_ARMOR_GROUP)));
 
     public static final Item TINY_BANDUTY_ITEM= registerItem("tiny_banduty",
-            new TinyBandutyItem(ModBlock.TINY_BANDUTY, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1).group(ModItemGroups.BSROLEPLAY_ARMOR_GROUP)));
+            new TinyBandutyItem(ModBlock.TINY_BANDUTY, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1).group(ModItemGroups.BSROLEPLAY_BLOCK_GROUP)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(BsRolePlay.MOD_ID, name), item);

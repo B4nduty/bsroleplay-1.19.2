@@ -89,6 +89,10 @@
   "sounds.bsroleplay.handcuffed": "Handcuffed",
   "sounds.bsroleplay.handcuffednt": "Handcuffednt",
 
+  "itemGroup.bsroleplay.roleplay_item": "Roleplay Item",
+  "itemGroup.bsroleplay.roleplay_block": "Roleplay Block",
+  "itemGroup.bsroleplay.roleplay_armor": "Roleplay Armor",
+
   "text.autoconfig.bsroleplay.title": "Banduty's Roleplay",
   "text.autoconfig.bsroleplay.option.common.modifyPharaohStaffLightning": "Pharaoh Staff - Lightnings",
   "text.autoconfig.bsroleplay.option.common.modifyHookEvokerFang": "Hook - Evoker Fang",

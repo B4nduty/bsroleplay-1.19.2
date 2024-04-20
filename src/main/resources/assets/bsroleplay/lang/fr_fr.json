@@ -89,6 +89,10 @@
   "sounds.bsroleplay.handcuffed": "Passer les Menottes",
   "sounds.bsroleplay.handcuffednt": "Libérer",
 
+  "itemGroup.bsroleplay.roleplay_item": "Roleplay Item",
+  "itemGroup.bsroleplay.roleplay_block": "Roleplay Block",
+  "itemGroup.bsroleplay.roleplay_armor": "Roleplay Armor",
+
   "text.autoconfig.bsroleplay.title": "Banduty's Roleplay",
   "text.autoconfig.bsroleplay.option.common.modifyPharaohStaffLightning": "Bâton du Pharaon - Éclairs",
   "text.autoconfig.bsroleplay.option.common.modifyHookEvokerFang": "Crochet - Evoker Fang",

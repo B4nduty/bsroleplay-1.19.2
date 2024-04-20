@@ -89,6 +89,10 @@
   "sounds.bsroleplay.handcuffed": "Esposar",
   "sounds.bsroleplay.handcuffednt": "Exesposado",
 
+  "itemGroup.bsroleplay.roleplay_item": "Roleplay Item",
+  "itemGroup.bsroleplay.roleplay_block": "Roleplay Block",
+  "itemGroup.bsroleplay.roleplay_armor": "Roleplay Armor",
+
   "text.autoconfig.bsroleplay.title": "Banduty's Roleplay",
   "text.autoconfig.bsroleplay.option.common.modifyPharaohStaffLightning": "Bastón del Faraón - Relámpagos",
   "text.autoconfig.bsroleplay.option.common.modifyHookEvokerFang": "Garfio - Colmillos de Evocador",
