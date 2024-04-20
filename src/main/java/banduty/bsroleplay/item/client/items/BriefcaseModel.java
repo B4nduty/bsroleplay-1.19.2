@@ -18,6 +18,6 @@ public class BriefcaseModel extends AnimatedGeoModel<BriefCase> {
 
     @Override
     public Identifier getAnimationResource(BriefCase animatable) {
-        return new Identifier(BsRolePlay.MOD_ID, "animations/armors.animation.json");
+        return new Identifier(BsRolePlay.MOD_ID, "animations/noanim.animation.json");
     }
 }

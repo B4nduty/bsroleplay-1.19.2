@@ -19,6 +19,6 @@ public class LawyerPurpleAndRedModel extends AnimatedGeoModel<LawyerPurpleAndRed
 
     @Override
     public Identifier getAnimationResource(LawyerPurpleAndRedItem animatable) {
-        return new Identifier(BsRolePlay.MOD_ID, "animations/armors.animation.json");
+        return new Identifier(BsRolePlay.MOD_ID, "animations/noanim.animation.json");
     }
 }

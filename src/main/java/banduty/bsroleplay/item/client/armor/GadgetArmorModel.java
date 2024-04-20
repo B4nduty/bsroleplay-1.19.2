@@ -19,6 +19,6 @@ public class GadgetArmorModel extends AnimatedGeoModel<GadgetArmor> {
 
     @Override
     public Identifier getAnimationResource(GadgetArmor animatable) {
-        return new Identifier(BsRolePlay.MOD_ID, "animations/gadget.animation.json");
+        return new Identifier(BsRolePlay.MOD_ID, "animations/noanim.animation.json");
     }
 }

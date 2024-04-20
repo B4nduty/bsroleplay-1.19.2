@@ -19,6 +19,6 @@ public class BunnyMaskModel extends AnimatedGeoModel<BunnyMaskItem> {
 
     @Override
     public Identifier getAnimationResource(BunnyMaskItem animatable) {
-        return new Identifier(BsRolePlay.MOD_ID, "animations/armors.animation.json");
+        return new Identifier(BsRolePlay.MOD_ID, "animations/noanim.animation.json");
     }
 }

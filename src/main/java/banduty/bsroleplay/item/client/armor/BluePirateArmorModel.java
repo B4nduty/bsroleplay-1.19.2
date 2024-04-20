@@ -18,6 +18,6 @@ public class BluePirateArmorModel extends AnimatedGeoModel<BluePirateArmorItem> 
 
     @Override
     public Identifier getAnimationResource(BluePirateArmorItem animatable) {
-        return new Identifier(BsRolePlay.MOD_ID, "animations/armor_animation.json");
+        return new Identifier(BsRolePlay.MOD_ID, "animations/noanim.animation.json");
     }
 }
