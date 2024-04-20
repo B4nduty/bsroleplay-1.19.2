@@ -38,7 +38,7 @@ dependencies {
 	modLocalRuntime("me.shedaniel:RoughlyEnoughItems-fabric:${project.rei}") { transitive = false }
 
 	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config}") {
-		exclude(group: "net.fabricmc.fabric-api")
+		transitive = false
 	}
 
 	modApi "dev.architectury:architectury-fabric:${project.architectury}"

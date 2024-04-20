@@ -37,7 +37,6 @@
 		"fabricloader": ">=0.15.10",
 		"minecraft": "~1.19.2",
 		"java": ">=17",
-		"geckolib": ">=3.1.40",
 		"cloth-config": ">=8.3.115-fabric",
 		"architectury": ">=6.6.92-fabric",
 		"fabric-api": "*"
