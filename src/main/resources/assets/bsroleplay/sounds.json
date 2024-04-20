@@ -1,0 +1,31 @@
+{
+  "judge_hammer_right_click": {
+    "subtitle": "sounds.bsroleplay.judge_hammer_right_click",
+    "sounds": [
+      "bsroleplay:judge_hammer_right_click"
+    ]
+  },
+
+  "handcuffed": {
+    "subtitle": "sounds.bsroleplay.handcuffed",
+    "sounds": [
+      "bsroleplay:handcuffed"
+    ]
+  },
+
+  "handcuffednt": {
+    "subtitle": "sounds.bsroleplay.handcuffednt",
+    "sounds": [
+      "bsroleplay:handcuffednt"
+    ]
+  },
+
+  "dolor_en_el_pecho_carola": {
+    "sounds": [
+      {
+        "name": "bsroleplay:dolor_en_el_pecho_carola",
+        "stream": true
+      }
+    ]
+  }
+}

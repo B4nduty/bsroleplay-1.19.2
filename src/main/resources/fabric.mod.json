@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "bsroleplay",
+	"version": "${version}",
+
+	"name": "BsRolePlay",
+	"description": "Let’s Roleplay!",
+	"authors": [
+		"Banduty"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/bandutys-roleplay",
+		"sources": "https://github.com/B4nduty/BsRolePlay-new",
+		"issues": "https://discord.gg/vbZ2zTHGNA"
+	},
+
+	"license": "All Rights Reserved",
+	"icon": "assets/bsroleplay/textures/logo/bandutys_roleplay_logo.png",
+
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"banduty.bsroleplay.BsRolePlay"
+		],
+		"client": [
+			"banduty.bsroleplay.BsRolePlayClient"
+		],
+		"fabric-datagen": [
+			"banduty.bsroleplay.BsRolePlayDataGenerator"
+		]
+	},
+	"mixins": [
+		"bsroleplay.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"geckolib": ">=3.1.40",
+		"cloth-config": ">=8.3.115-fabric",
+		"architectury": ">=6.6.92-fabric",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

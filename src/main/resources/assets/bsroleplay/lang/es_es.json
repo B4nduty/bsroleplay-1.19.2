@@ -1,0 +1,160 @@
+{
+  "item.bsroleplay.red_pirate_helmet": "Tricornio Rojo",
+  "item.bsroleplay.red_pirate_chestplate": "Vestimenta de Pirata Roja",
+  "item.bsroleplay.red_pirate_leggings": "Pantalones Pirata Rojos",
+
+  "item.bsroleplay.blue_pirate_helmet": "Tricornio Azul",
+  "item.bsroleplay.blue_pirate_chestplate": "Vestimenta de Pirata Azul",
+  "item.bsroleplay.blue_pirate_leggings": "Pantalones Pirata Azules",
+
+  "item.bsroleplay.crown": "Corona",
+  "item.bsroleplay.mini_crown": "Corona Chiquita",
+
+  "item.bsroleplay.dream_mask": "Máscara de Dream",
+  "item.bsroleplay.bunny_mask": "Máscara de Conejo",
+
+  "item.bsroleplay.hook": "Garfio",
+  "tooltip.bsroleplay.hook.tooltip": "Cuando haces clic derecho, aparece unos Colmillos de Evocador",
+
+  "item.bsroleplay.dolor_en_el_pecho_carola_music_disc": "Disco de Música",
+  "item.bsroleplay.dolor_en_el_pecho_carola_music_disc.desc": "Shivita - Dolor En El Pecho Remix",
+
+  "item.bsroleplay.judge_hammer": "Martillo de Juez",
+  "tooltip.bsroleplay.judgehammer.tooltip": "Al darle Clic Derecho hace Sonido",
+
+  "item.bsroleplay.police_baton": "Porra Policial",
+  "tooltip.bsroleplay.policebaton.tooltip": "Al Golpear da Efecto de Lentitud",
+
+  "item.bsroleplay.police_helmet": "Gorra Policial",
+  "item.bsroleplay.police_chestplate": "Uniforme Policial",
+  "item.bsroleplay.police_leggings": "Pantalón Policial",
+  "item.bsroleplay.police_boots": "Zapatos Policiales",
+
+  "item.bsroleplay.pharaoh_staff": "Bastón del Faraón",
+  "tooltip.bsroleplay.pharaoh_staff.tooltip": "Al darle Clic Derecho aparece un Rayo",
+
+  "item.bsroleplay.halo": "Aureola",
+
+  "item.bsroleplay.neanderthal_chestplate": "Ropa de Cuero",
+
+  "item.bsroleplay.funeral_mask": "Máscara Funeraria",
+
+  "item.bsroleplay.civic_crown": "Láurea",
+  "item.bsroleplay.roman_toga": "Toga Romana",
+
+  "item.bsroleplay.cowboy_hat": "Sombrero de Cowboy",
+  "item.bsroleplay.poncho": "Poncho",
+
+  "item.bsroleplay.happy_pill": "Píldora Optimista",
+
+  "item.bsroleplay.roleplay_core": "Núcleo de Roleplay",
+
+  "item.bsroleplay.protection_helmet": "Casco de Protección",
+  "item.bsroleplay.protection_chestplate": "Peto de Protección",
+  "item.bsroleplay.protection_leggings": "Pantalones de Protección",
+  "item.bsroleplay.protection_boots": "Botas de Protección",
+
+  "item.bsroleplay.dealer": "Máscara de Traficante",
+  "item.bsroleplay.sad_pill": "Pastilla Depresiva",
+  "item.bsroleplay.pill_core": "Núcleo de Píldora",
+
+  "item.bsroleplay.gadget_hat": "Sombrero de Artilugios",
+
+  "block.bsroleplay.tiny_banduty": "Mini Banduty",
+
+  "item.bsroleplay.lawyer_blackblue_chestplate": "Traje Negro y Azul",
+  "item.bsroleplay.lawyer_blackgold_chestplate": "Traje Negro y Oro",
+  "item.bsroleplay.lawyer_blackred_chestplate": "Traje Negro y Rojo",
+  "item.bsroleplay.lawyer_leggings_black": "Pantalones Negros",
+  "item.bsroleplay.lawyer_boots_black": "Zapatos Negros",
+  "item.bsroleplay.lawyer_purplered_chestplate": "Traje Morado y Rojo",
+  "item.bsroleplay.lawyer_leggings_purple": "Pantalones Morados",
+  "item.bsroleplay.lawyer_boots_purple": "Zapatos Morados",
+
+  "item.bsroleplay.briefcase": "Maletín",
+  "item.bsroleplay.black_briefcase": "Maletín Negro",
+  "item.bsroleplay.purple_briefcase": "Maletín Morado",
+
+  "item.bsroleplay.handcuffs": "Esposas",
+  "item.bsroleplay.handcuffs_key": "Llave de Esposas",
+  "item.bsroleplay.anti_god_handcuffs": "Esposas Anti-Dioses",
+
+  "message.bsroleplay.handcuff.handcuffed_1": "%s ha sido esposado",
+  "message.bsroleplay.handcuff.handcuffed_2": "Has sido esposado",
+  "message.bsroleplay.anti_god_handcuffs.handcuffed": "El Dios %s ha sido rebajado a un simple Mortal",
+  "message.bsroleplay.handcuff_key.free_1": "%s ha sido liberado",
+  "message.bsroleplay.handcuff_key.free_2": "Has sido liberado",
+
+  "sounds.bsroleplay.judge_hammer_right_click": "Golpe de Martillo de Juez",
+  "sounds.bsroleplay.handcuffed": "Esposar",
+  "sounds.bsroleplay.handcuffednt": "Exesposado",
+
+  "text.autoconfig.bsroleplay.title": "Banduty's Roleplay",
+  "text.autoconfig.bsroleplay.option.common.modifyPharaohStaffLightning": "Bastón del Faraón - Relámpagos",
+  "text.autoconfig.bsroleplay.option.common.modifyHookEvokerFang": "Garfio - Colmillos de Evocador",
+  "text.autoconfig.bsroleplay.option.common.modifyJudgeHammerSound": "Martillo del Juez - Sonido",
+  "text.autoconfig.bsroleplay.option.common.modifyPoliceBatonSlowness": "Porra Policial - Lentitud",
+  "text.autoconfig.bsroleplay.option.common.modifyProtectionSetEffects": "Conjunto de Protección - Efectos",
+  "text.autoconfig.bsroleplay.option.common.modifyPoliceSetEffects": "Conjunto de Policia - Efecto",
+  "text.autoconfig.bsroleplay.option.common.policeSetSpeedLevel": "Conjunto de Policia - Nivel de Velocidad",
+  "text.autoconfig.bsroleplay.option.common.handcuffsSlownessLevel": "Esposas - Nivel de Lentitud",
+  "text.autoconfig.bsroleplay.option.common.handcuffsWeaknessLevel": "Esposas - Nivel de Debilidad",
+  "text.autoconfig.bsroleplay.option.common.pharaohStaffCooldown": "Bastón del Faraón - Enfriamiento",
+  "text.autoconfig.bsroleplay.option.common.pharaohStaffCooldown.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.hookCooldown": "Garfio - Enfriamiento",
+  "text.autoconfig.bsroleplay.option.common.hookCooldown.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.judgeHammerCooldown": "Martillo de Juez - Enfriamiento",
+  "text.autoconfig.bsroleplay.option.common.judgeHammerCooldown.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.policeBatonSlownessLevel": "Porra Policial - Nivel de Lentitud",
+  "text.autoconfig.bsroleplay.option.common.policeBatonSlownessDuration": "Porra Policial - Duración de Lentitud",
+  "text.autoconfig.bsroleplay.option.common.policeBatonSlownessDuration.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.policeBatonCooldown": "Porra Policial - Cooldown",
+  "text.autoconfig.bsroleplay.option.common.policeBatonCooldown.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessTime": "Píldora Optimista - Tiempo de Ceguera",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessTime.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessChance": "Píldora Optimista - Posibilidad Ceguera",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessTime": "Píldora Optimista - Tiempo de Debilidad",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessTime.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessChance": "Píldora Optimista - Posibilidad Debilidad",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime": "Píldora Optimista - Tiempo de Nausea",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaChance": "Píldora Optimista - Posibilidad Nausea",
+  "text.autoconfig.bsroleplay.option.common.happyPillInstantHealthChance": "Píldora Optimista-Probabilidad Curación",
+  "text.autoconfig.bsroleplay.option.common.happyPillMaxStack": "Píldora Optimista - Max Stack",
+  "text.autoconfig.bsroleplay.option.common.sadPillMaxStack": "Pastilla Depresiva - Max Stack",
+  "text.autoconfig.bsroleplay.option.common.sadPillConsumeTime": "Pastilla Depresiva - Temps de Consommation",
+  "text.autoconfig.bsroleplay.option.common.sadPillConsumeTime.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.showItemTooltips": "Información sobre Herramientas",
+  "text.autoconfig.bsroleplay.option.common.pillCoreChestsChance": "Probabilidad de Cofres - Núcleo de Píldora",
+  "text.autoconfig.bsroleplay.option.common.funeralMaskChestsChance": "Probabilidad de Cofres - Máscara Funeraria",
+  "text.autoconfig.bsroleplay.option.common.pharaohStaffChestsChance": "Probabilidad de Cofres - Bastón del Faraón",
+  "text.autoconfig.bsroleplay.option.common.gadgetHatChestsChance": "Probabilidad de Cofres - Sombrero de Artilugios",
+  "text.autoconfig.bsroleplay.option.common.sadPill1stStageTime": "Pastilla Depresiva - Primera Etapa",
+  "text.autoconfig.bsroleplay.option.common.sadPill1stStageTime.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.hookChestsChance": "Probabilidad de Cofres - Garfio",
+  "text.autoconfig.bsroleplay.option.common.modifyAntiGodHandcuffsFire": "Esposas Anti-Dioses - Mechero",
+
+  "advancement.police_set.title": "I'm Justice",
+  "advancement.police_set.desc": "Crea el Conjunto Policial, la Porra Policial y las esposas",
+
+  "advancement.roleplay_core.title": "Let's Roleplay!",
+  "advancement.roleplay_core.desc": "Craftea un Núcleo de Roleplay",
+
+  "advancement.funeral_mask.title": "Sé el Jugador Supremo",
+  "advancement.funeral_mask.desc": "Encuentra una Máscara Funeraria y el Bastón del Faraón",
+
+  "advancement.hook.title": "El Rey de los Piratas",
+  "advancement.hook.desc": "Encuentra un Garfio",
+
+  "advancement.music_disc.title": "Feel the Moment",
+  "advancement.music_disc.desc": "Encuentra el Disco de Música - Dolor en el Pecho",
+
+  "advancement.pill_core.title": "El Gran Traficante",
+  "advancement.pill_core.desc": "Encuentra el Núcleo de Píldora",
+
+  "advancement.purple_lawyer_set.title": "Hombre de Morado",
+  "advancement.purple_lawyer_set.desc": "Crea el Maletín Morado y el conjunto de Abogado Morado",
+
+  "advancement.gods_handcuffs.title": "El Destructor de Dioses",
+  "advancement.gods_handcuffs.desc": "Consigue unas Esposas Anti-Dioses"
+}

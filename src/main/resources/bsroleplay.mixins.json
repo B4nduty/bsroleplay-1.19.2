@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "banduty.bsroleplay.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"MilkBucketMixin",
+		"ModEntityDataSaver",
+		"ServerItemCooldownManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"client": [
+		"PlayerEntityRendererMixin"
+	]
+}
